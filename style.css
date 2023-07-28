@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: #F3F5FC; */
+  }
+
+  body {
+    background: #F3F5FC;
+  }
+  
+  header {
+    background: #F3F5FC;
+    padding: 2px;
+  }
+  
+  .icono {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10%;
+  }
+  
+  .container {
+    background: #F3F5FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 10px 0 10px;
+    height: 70%;
+    min-height: 80%;
+    
+  }
+  
+  .left-container {
+    background: #F3F5FC;
+    width: 70%;
+    height: 100%;
+  }
+
+  .text-area {
+    margin-left: 25%;
+    width: 70%;
+    height: 75%;
+    background:  #F3F5FC;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+
+  .text-area::placeholder {
+    color: #0A3871;
+  }
+
+  .aviso {
+    display: flex;
+    margin-left: 25%;
+    width: 70%;
+    height: 10%;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .aviso img {
+    margin-right: 10px;
+  }
+
+  .texto-aviso {
+    font-family: 'Inter', sans-serif;
+    font-size: 70%;
+    margin-left: 2%;
+  }
+
+  .encriptar {
+    padding: 3%;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 20%;
+    background: #0A3871;
+    color: #F3F5FC;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .desencriptar {
+    padding: 3%;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    background: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .right-container {
+    width: 20%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 0 auto 0 0;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .right-container img {
+    flex: 1 1 50%; 
+    object-fit: contain; 
+    max-width: 100%; 
+    max-height: 100%;
+  }
+
+  .munieco {
+    width: 100%;
+    
+  }
+
+  .contenedor h3 {
+    flex: 1 1 15%; 
+    
+  }
+
+  h3 {
+    text-align: center;
+    margin: 0 auto 10;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .contenedor p {
+    flex: 1 1 10%; 
+  }
+
+  .aviso2 {
+    margin: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .contenedor button {
+    flex: 1 1 25%; 
+  }
+
+  .button {
+    margin: 15px auto;
+    width: 85%;
+    height: 50px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  footer {
+    background: #F3F5FC;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .ocultar {
+    display: none;
+  }
